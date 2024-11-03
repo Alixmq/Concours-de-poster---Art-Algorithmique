@@ -1,4 +1,5 @@
 # Concours-de-poster---Art-Algorithmique
+Alix Marquer
 Fonctionnalités du programme
 1. Classe Drop
 La classe Drop représente une goutte d’encre qui se déforme et interagit avec d'autres gouttes pour créer un effet visuel le "paper marbling":
@@ -28,5 +29,7 @@ Click souris : en cliquant, l’utilisateur peut introduire une onde de déforma
 Palette de couleurs
 Le programme utilise une palette de quatre couleurs douces pour les gouttes d'encre, apportant une harmonie visuelle. Les couleurs sont tirées aléatoirement pour chaque goutte, créant un effet visuel cohérent.
 
-Une partie ASCII Art a aussi été ajoutée 
+Une partie ASCII Art a aussi été ajoutée en utilisant ascii_magic dans le notebook.
+
+Explications :
 Réflexion sur l’avenir de l’art et de l’autonomie créative : Avec la montée de l’intelligence artificielle, ce poster représente un futur où les machines possèdent une forme d'autonomie créative. Le robot en train de dessiner manuellement avec un crayon symbolise une vision où les machines adoptent, imitent, voire surpassent l’humain dans des domaines autrefois exclusifs, comme l’art. Le programmeur, créant à distance, symbolise quant à lui, la disparition progressive de l’humain de certains processus créatifs.
