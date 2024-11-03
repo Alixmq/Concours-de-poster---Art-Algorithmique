@@ -1,6 +1,6 @@
 # Concours-de-poster---Art-Algorithmique
 Alix Marquer
-Fonctionnalités du programme
+Fonctionnalités du programme (dans sketch.js) : 
 1. Classe Drop
 La classe Drop représente une goutte d’encre qui se déforme et interagit avec d'autres gouttes pour créer un effet visuel le "paper marbling":
 
