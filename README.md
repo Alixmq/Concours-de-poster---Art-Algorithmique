@@ -1,32 +1,39 @@
 # Concours-de-poster---Art-Algorithmique
+
+# 💧 Simulation de Marbrure d'Encre 🎨
+
+## 🌟 Présentation
+Projet de simulation d'effet de marbrure sur papier avec une classe `Drop` créant des gouttes d'encre dynamiques et interactives.
+
+## 🔬 Classe : Drop
+
+### 📍 Propriétés
+- `center` : Coordonnées (x, y) du centre de la goutte
+- `r` : Rayon de la goutte
+- `sommets` : Points définissant le contour de la goutte
+- `couleur` : Couleur aléatoire de la palette
+
+### 🛠 Méthodes
+- `tine(x, z, c)` : Déformation verticale des vertex
+- `marble(other)` : Ajustement des positions selon la proximité des gouttes
+- `show()` : Rendu de la goutte sur le canevas
+
+## 🚀 Fonctions Principales
+- `setup()` : Initialisation du canevas
+- `addInk(x, y, r)` : Création et gestion des interactions de gouttes
+- `tineLine(xl, z, c)` : Déformations aléatoires sur ligne verticale
+- `draw()` : Actualisation et affichage des gouttes
+
+## 🖱️ Interaction Utilisateur
+- Clic Souris : Onde de déformation au point de clic
+
+## 🎨 Palette de Couleurs
+Quatre couleurs douces pour une harmonie visuelle.
+
+## 🌈 Fonctionnalités Bonus
+- Art ASCII avec `ascii_magic`
+
+## 🔗 Dépendances
+- Processing 
+- ascii_magic
 Alix Marquer
-Fonctionnalités du programme (dans sketch.js) : 
-1. Classe Drop
-La classe Drop représente une goutte d’encre qui se déforme et interagit avec d'autres gouttes pour créer un effet visuel le "paper marbling":
-
-Propriétés :
-
-center : centre de la goutte, positionnée en x et y.
-r : rayon de la goutte.
-sommets : points qui forment le contour de la goutte, calculés pour simuler un cercle divisé en circleDetail segments.
-couleur : couleur aléatoire assignée à chaque goutte à partir de la palette définie.
-
-Méthodes :
-
-- tine(x, z, c) : applique une déformation verticale (z) aux sommets de la goutte, dépendant de leur distance horizontale par rapport à un point de référence (x), simulant un effet d'onde.
-- marble(other) : ajuste la position de chaque sommet en fonction de la distance à une autre goutte, créant un effet d'attraction ou de fusion entre les gouttes.
-- show() : dessine la goutte sur la toile, utilisant sa couleur et son contour défini par les sommets.
-
-2. Fonctions principales
-- setup(): initialise le canevas et génère un ensemble de gouttes d'encre (drops) avec des positions, tailles et couleurs aléatoires.
-- addInk(x, y, r): crée une nouvelle goutte d'encre et ajuste ses interactions avec les gouttes déjà présentes, appliquant des déformations pour simuler un mélange progressif.
-- tineLine(xl, z, c): déforme aléatoirement certaines gouttes sur une ligne verticale, simulant un effet de propagation.
-- draw(): rafraîchit le canevas en arrière-plan et affiche les gouttes avec leurs déformations actuelles.
-
-Interaction utilisateur
-Click souris : en cliquant, l’utilisateur peut introduire une onde de déformation supplémentaire (via tineLine) sur les gouttes à l’endroit du curseur.
-
-Palette de couleurs
-Le programme utilise une palette de quatre couleurs douces pour les gouttes d'encre, apportant une harmonie visuelle. Les couleurs sont tirées aléatoirement pour chaque goutte, créant un effet visuel cohérent.
-
-Une partie ASCII Art a aussi été ajoutée en utilisant ascii_magic dans le notebook.
